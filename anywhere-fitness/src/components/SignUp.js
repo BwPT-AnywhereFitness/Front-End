@@ -66,7 +66,7 @@ const SignUp=({history})=> {
         try{await app
             .auth()
             .createUserWithEmailAndPassword(email.value, password.value);
-            history.push("/");
+            history.push("/dashboard");
         }catch(error){
             console.error(error);
         }

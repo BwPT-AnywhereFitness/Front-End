@@ -14,7 +14,7 @@ function App() {
 
     <Router>
       <div className='App'>
-        <PrivateRoute exact path='/' component={Dashboard} />
+        <PrivateRoute exact path='/dashboard' component={Dashboard} />
         <Route exact path='/login' component={Login} />
         <Route exact path='/signup' component={SignUp} />
 
